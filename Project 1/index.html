@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jemima Chambers - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="content-border">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#">Index</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Work</a></li>
+                </ul>
+                <h1>Jemima Chambers</h1>
+                <ul>
+                    <li><a href="#">Click for fun</a></li>
+                    <li><a href="#">Let's talk</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="portfolio">
+                <div class="portfolio-item">
+                    <img src="image1.webp" alt="Enchanted Grove">
+                    <div class="portfolio-text">
+                        <h2>ENCHANTED GROVE</h2>
+                        <p>FULL CASE</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="image2.webp" alt="The Gnome's World">
+                    <div class="portfolio-text">
+                        <h2>THE GNOME'S WORLD</h2>
+                        <p>FULL CASE</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="image3.webp" alt="Fantasy Tea Affair">
+                    <div class="portfolio-text">
+                        <h2>FANTASY TEA AFFAIR</h2>
+                        <p>FULL CASE</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="image4.webp" alt="Floral Symphony">
+                    <div class="portfolio-text">
+                        <h2>FLORAL SYMPHONY</h2>
+                        <p>FULL CASE</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="image5.webp" alt="Legends Awakened">
+                    <div class="portfolio-text">
+                        <h2>LEGENDS AWAKENED</h2>
+                        <p>FULL CASE</p>
+                    </div>
+                </div>
+            </section>
+
+            <div class="custom-cursor"></div>
+
+            <footer>
+                <div class="footer-content">
+                    <div class="footer-text">
+                        <span>2D Illustrations</span>
+                        <span>*</span>
+                        <span>Art</span>
+                        <span>*</span>
+                        <span>Conceptualization</span>
+                        <span>*</span>
+                        <span>Storyboarding</span>
+                        <span>*</span>
+                        <span>Visualization</span>
+                    </div>
+                    <div class="footer-titles">
+                        <h2>MAIN</h2>
+                        <h2 class="focus-text">FOCUS</h2>
+                    </div>
+                </div>
+            </footer>
+        </main>
+    </div>
+
+    <script>
+        // JavaScript to control the custom cursor
+        document.addEventListener('mousemove', function(e) {
+            const cursor = document.querySelector('.custom-cursor');
+            cursor.style.left = e.clientX + 'px';
+            cursor.style.top = e.clientY + 'px';
+        });
+    </script>
+</body>
+</html>
